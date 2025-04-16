@@ -59,7 +59,7 @@ const AppShowcase = () => {
               <h1 className="m-2 text-xl">Agrume 1</h1>
               <div className="image-wrapper">
               <a href="https://www.agrume.fr/">
-                <img src="/images/agrumeFond.png" alt="Agrume RH"/>
+                <img src="./images/agrumeFond.png" alt="Agrume RH"/>
               </a>
               </div>
               <div className="text-content">
@@ -76,7 +76,7 @@ const AppShowcase = () => {
             <h1 className="m-2 text-xl">Agrume 2</h1>
               <div className="image-wrapper">
               <a href="https://www.agrume.fr/">
-                <img src="/images/cafeOnprogress.jpg" alt="Agrume RH 2"/>
+                <img src="./images/cafeOnprogress.jpg" alt="Agrume RH 2"/>
               </a>
               </div>
               <div className="text-content">
@@ -93,7 +93,7 @@ const AppShowcase = () => {
             <h1 className="m-2 text-xl">Kasa</h1>
               <div className="image-wrapper">
               <a href="https://github.com/TedPasquiet/OC_N7_Kasa.git">
-                <img src="/images/kasa.jpg" alt="Kasa Open Classrooms"/>
+                <img src="./images/kasa.jpg" alt="Kasa Open Classrooms"/>
               </a>
               </div>
               <div className="text-content">
