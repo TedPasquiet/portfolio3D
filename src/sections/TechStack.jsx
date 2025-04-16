@@ -28,7 +28,7 @@ const TechStack = () => {
         ease: "power2.inOut", // Ease of the animation
         stagger: 0.2, // Stagger the animation by 0.2 seconds
         scrollTrigger: {
-          trigger: "#skills", // Trigger the animation when the user scrolls to the #skills wrapper
+          trigger: "#compétence", // Trigger the animation when the user scrolls to the #skills wrapper
           start: "top center", // Start the animation when the top of the wrapper is at the center of the screen
         },
       }
