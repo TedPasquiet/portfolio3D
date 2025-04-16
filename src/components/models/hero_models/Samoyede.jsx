@@ -10,9 +10,9 @@ import { BlendFunction } from "postprocessing";
 import * as THREE from "three";
 
 export function Samoyede(props) {
-  const { nodes, materials } = useGLTF("/models/samoyede.glb");
+  const { nodes, materials } = useGLTF("./models/samoyede.glb");
   const screensRef = useRef();
-  const matcapTexture = useTexture("/images/textures/mat1.png");
+  const matcapTexture = useTexture("./images/textures/mat1.png");
 
   const curtainMaterial = new THREE.MeshPhongMaterial({
     color: "#d90429",
@@ -174,4 +174,4 @@ export function Samoyede(props) {
   );
 }
 
-useGLTF.preload("/models/optimized-room.glb");
+useGLTF.preload("./models/optimized-room.glb");

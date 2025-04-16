@@ -18,6 +18,6 @@ export function Samoyede(props) {
   );
 }
 
-useGLTF.preload("/models/samoyede.glb");
+useGLTF.preload("./models/samoyede.glb");
 
 export default Samoyede;
