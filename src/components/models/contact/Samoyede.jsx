@@ -2,7 +2,7 @@ import { useGLTF } from "@react-three/drei";
 
 export function Samoyede(props) {
   const { nodes, materials } = useGLTF(
-    "/models/samoyede.glb"
+    "./models/samoyede.glb"
   );
 
   return (
