@@ -174,4 +174,4 @@ export function Samoyede(props) {
   );
 }
 
-useGLTF.preload("./models/optimized-room.glb");
+useGLTF.preload("./models/samoyede.glb");
